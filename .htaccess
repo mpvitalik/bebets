@@ -1,0 +1,7 @@
+RewriteEngine on
+#RewriteRule ^new-([0-9]+)\.html$ new.php?id=$1
+#RewriteRule ^([a-zA-Z0-9_-]+).html$ new.php?ssilka=$1
+#RewriteRule ^([a-zA-Z0-9_-]+).htm$ prognoz.php?ssilka=$1
+RewriteRule ^([a-zA-Z0-9_-]+).html$ controller.php?ssilka=$1
+#Redirect from error page
+#ErrorDocument 404 https://bebets.ru/error-page.php

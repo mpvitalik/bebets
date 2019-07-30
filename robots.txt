@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: https://bebets.ru/kak-poluchit-podarok.html
+Disallow: https://bebets.ru/kak-poluchit-vip-prognoz-besplatno.html
+Host: https://bebets.ru
+Sitemap: https://bebets.ru/sitemap.xml
